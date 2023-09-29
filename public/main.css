@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.log-container{
+    display: flex;
+    background-image: url(img/0f60adab26078bb90beb0d0c9c5dd218.jpeg);
+  width: 90%;
+  height: 85%;
+  padding: 5%;
+  justify-content: center;
+  background-size: cover;
+
+
+  
+
+
+}
+.form-container{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgba(235, 221, 35, 0.5), rgba(107, 106, 102, 0.5));
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 7px;
+    
+}
+.form-container label{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    font-family: cursive;
+    margin-top: 10px;
+}
+.form-container form{
+    display: flex;
+    flex-direction: column;
+}
+.form-container input{
+    margin-top: 5px;
+    background: linear-gradient(to bottom, rgba(132, 133, 134, 0.5), rgba(46, 47, 48, 0.5));
+    border: none;
+    border-bottom: 3px solid black;
+    border-radius: 5px;
+
+}
+.form-container button{
+    margin-top: 30px;
+    width: 150px;
+    background: chartreuse;
+    border-radius: 3px;
+    border: 0;
+    height: 30px;
+    font-size: 18;
+    font-family: cursive;
+    margin-left: 30px;
+
+
+}
+.form-container h2{
+    margin-top: 2em;
+    font-family: cursive;
+    font-size: 25px;
+}
+.form-container button a{
+    text-decoration: none;
+    margin-top: 30px;
+    width: 150px;
+    background: chartreuse;
+    border-radius: 3px;
+    border: 0;
+    height: 30px;
+    font-size: 18;
+    font-family: cursive;
+    margin-left: 20px;
+    color: black;
+
+
+}
